@@ -23,7 +23,7 @@ async def on_message(message):
 #on_message reacts to every message, so the bot needs to ignore messages from its self
 	
 	if message.content.startswith('$hello'):
-		await message.channel.send("Hello!')
+		await message.channel.send('Hello!')
 #
 
 client.run('token here')
